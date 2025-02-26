@@ -19,6 +19,7 @@ namespace RadioFrequencyController
         public MainForm()
         {
             InitializeComponent();
+            btnReset_Click(null, null);
         }
 
         private void btn1_Click(object sender, EventArgs e)
@@ -28,18 +29,17 @@ namespace RadioFrequencyController
 
             string newBuffer = frequencyBuffer + btn.Text;
 
-            // If the buffer is empty (after a reset), enforce that first input must be '1'
             if (frequencyBuffer.Length == 0 && btn.Text != "1")
             {
                 MessageBox.Show("Frequency must start with '1' (e.g., 118-136).");
                 return;
             }
 
-            // Validate the prefix before allowing input
             if (IsValidPrefix(newBuffer))
             {
                 frequencyBuffer = newBuffer;
                 UpdateDisplay();
+                UpdateButtonStates();  // 🔹 Call this function after input
             }
             else
             {
@@ -54,18 +54,17 @@ namespace RadioFrequencyController
 
             string newBuffer = frequencyBuffer + btn.Text;
 
-            // If the buffer is empty (after a reset), enforce that first input must be '1'
             if (frequencyBuffer.Length == 0 && btn.Text != "1")
             {
                 MessageBox.Show("Frequency must start with '1' (e.g., 118-136).");
                 return;
             }
 
-            // Validate the prefix before allowing input
             if (IsValidPrefix(newBuffer))
             {
                 frequencyBuffer = newBuffer;
                 UpdateDisplay();
+                UpdateButtonStates();  // 🔹 Call this function after input
             }
             else
             {
@@ -80,18 +79,17 @@ namespace RadioFrequencyController
 
             string newBuffer = frequencyBuffer + btn.Text;
 
-            // If the buffer is empty (after a reset), enforce that first input must be '1'
             if (frequencyBuffer.Length == 0 && btn.Text != "1")
             {
                 MessageBox.Show("Frequency must start with '1' (e.g., 118-136).");
                 return;
             }
 
-            // Validate the prefix before allowing input
             if (IsValidPrefix(newBuffer))
             {
                 frequencyBuffer = newBuffer;
                 UpdateDisplay();
+                UpdateButtonStates();  // 🔹 Call this function after input
             }
             else
             {
@@ -106,18 +104,17 @@ namespace RadioFrequencyController
 
             string newBuffer = frequencyBuffer + btn.Text;
 
-            // If the buffer is empty (after a reset), enforce that first input must be '1'
             if (frequencyBuffer.Length == 0 && btn.Text != "1")
             {
                 MessageBox.Show("Frequency must start with '1' (e.g., 118-136).");
                 return;
             }
 
-            // Validate the prefix before allowing input
             if (IsValidPrefix(newBuffer))
             {
                 frequencyBuffer = newBuffer;
                 UpdateDisplay();
+                UpdateButtonStates();  // 🔹 Call this function after input
             }
             else
             {
@@ -132,18 +129,17 @@ namespace RadioFrequencyController
 
             string newBuffer = frequencyBuffer + btn.Text;
 
-            // If the buffer is empty (after a reset), enforce that first input must be '1'
             if (frequencyBuffer.Length == 0 && btn.Text != "1")
             {
                 MessageBox.Show("Frequency must start with '1' (e.g., 118-136).");
                 return;
             }
 
-            // Validate the prefix before allowing input
             if (IsValidPrefix(newBuffer))
             {
                 frequencyBuffer = newBuffer;
                 UpdateDisplay();
+                UpdateButtonStates();  // 🔹 Call this function after input
             }
             else
             {
@@ -158,18 +154,17 @@ namespace RadioFrequencyController
 
             string newBuffer = frequencyBuffer + btn.Text;
 
-            // If the buffer is empty (after a reset), enforce that first input must be '1'
             if (frequencyBuffer.Length == 0 && btn.Text != "1")
             {
                 MessageBox.Show("Frequency must start with '1' (e.g., 118-136).");
                 return;
             }
 
-            // Validate the prefix before allowing input
             if (IsValidPrefix(newBuffer))
             {
                 frequencyBuffer = newBuffer;
                 UpdateDisplay();
+                UpdateButtonStates();  // 🔹 Call this function after input
             }
             else
             {
@@ -184,18 +179,17 @@ namespace RadioFrequencyController
 
             string newBuffer = frequencyBuffer + btn.Text;
 
-            // If the buffer is empty (after a reset), enforce that first input must be '1'
             if (frequencyBuffer.Length == 0 && btn.Text != "1")
             {
                 MessageBox.Show("Frequency must start with '1' (e.g., 118-136).");
                 return;
             }
 
-            // Validate the prefix before allowing input
             if (IsValidPrefix(newBuffer))
             {
                 frequencyBuffer = newBuffer;
                 UpdateDisplay();
+                UpdateButtonStates();  // 🔹 Call this function after input
             }
             else
             {
@@ -210,18 +204,17 @@ namespace RadioFrequencyController
 
             string newBuffer = frequencyBuffer + btn.Text;
 
-            // If the buffer is empty (after a reset), enforce that first input must be '1'
             if (frequencyBuffer.Length == 0 && btn.Text != "1")
             {
                 MessageBox.Show("Frequency must start with '1' (e.g., 118-136).");
                 return;
             }
 
-            // Validate the prefix before allowing input
             if (IsValidPrefix(newBuffer))
             {
                 frequencyBuffer = newBuffer;
                 UpdateDisplay();
+                UpdateButtonStates();  // 🔹 Call this function after input
             }
             else
             {
@@ -236,18 +229,17 @@ namespace RadioFrequencyController
 
             string newBuffer = frequencyBuffer + btn.Text;
 
-            // If the buffer is empty (after a reset), enforce that first input must be '1'
             if (frequencyBuffer.Length == 0 && btn.Text != "1")
             {
                 MessageBox.Show("Frequency must start with '1' (e.g., 118-136).");
                 return;
             }
 
-            // Validate the prefix before allowing input
             if (IsValidPrefix(newBuffer))
             {
                 frequencyBuffer = newBuffer;
                 UpdateDisplay();
+                UpdateButtonStates();  // 🔹 Call this function after input
             }
             else
             {
@@ -262,18 +254,17 @@ namespace RadioFrequencyController
 
             string newBuffer = frequencyBuffer + btn.Text;
 
-            // If the buffer is empty (after a reset), enforce that first input must be '1'
             if (frequencyBuffer.Length == 0 && btn.Text != "1")
             {
                 MessageBox.Show("Frequency must start with '1' (e.g., 118-136).");
                 return;
             }
 
-            // Validate the prefix before allowing input
             if (IsValidPrefix(newBuffer))
             {
                 frequencyBuffer = newBuffer;
                 UpdateDisplay();
+                UpdateButtonStates();  // 🔹 Call this function after input
             }
             else
             {
@@ -284,20 +275,20 @@ namespace RadioFrequencyController
         private void btnReset_Click(object sender, EventArgs e)
         {
             frequencyBuffer = "";  // Clear the input completely
-            lblFrequencyDisplay.Text = "118.000";  // Show a default valid frequency
+            lblFrequencyDisplay.Text = "___.___";  // Show placeholder underscores
+            UpdateButtonStates(); // Reset buttons
         }
 
         private void UpdateDisplay()
         {
-            // If the buffer is empty, show a default valid frequency
             if (string.IsNullOrEmpty(frequencyBuffer))
             {
-                lblFrequencyDisplay.Text = "118.000";
+                lblFrequencyDisplay.Text = "___.___";  // Show underscores if empty
                 return;
             }
 
             // Ensure at least 3 digits before the decimal
-            string formattedFrequency = frequencyBuffer.PadRight(6, '0');
+            string formattedFrequency = frequencyBuffer.PadRight(6, '_');
 
             // Insert the decimal point automatically
             string displayFrequency = formattedFrequency.Insert(3, ".");
@@ -330,6 +321,89 @@ namespace RadioFrequencyController
             }
              
             return false;
+        }
+
+        private void UpdateButtonStates()
+        {
+            // Disable all buttons first
+            btn0.Enabled = false;
+            btn1.Enabled = false;
+            btn2.Enabled = false;
+            btn3.Enabled = false;
+            btn4.Enabled = false;
+            btn5.Enabled = false;
+            btn6.Enabled = false;
+            btn7.Enabled = false;
+            btn8.Enabled = false;
+            btn9.Enabled = false;
+
+            if (frequencyBuffer.Length == 0)
+            {
+                // First digit must be '1'
+                btn1.Enabled = true;
+            }
+            else if (frequencyBuffer.Length == 1)
+            {
+                // Second digit can only be '2' or '3'
+                if (frequencyBuffer == "1")
+                {
+                    btn1.Enabled = true;
+                    btn2.Enabled = true;
+                    btn3.Enabled = true;
+                }
+            }
+            else if (frequencyBuffer.Length == 2)
+            {
+                // Third digit depends on the second digit
+                char secondDigit = frequencyBuffer[1];
+
+                if (secondDigit == '1')
+                {
+                    // Allow 8-9 for "12x"
+                    btn8.Enabled = true;
+                    btn9.Enabled = true;
+                }
+                else if (secondDigit == '2')
+                {
+                    // Allow 0-9 for "12x"
+                    btn0.Enabled = true;
+                    btn1.Enabled = true;
+                    btn2.Enabled = true;
+                    btn3.Enabled = true;
+                    btn4.Enabled = true;
+                    btn5.Enabled = true;
+                    btn6.Enabled = true;
+                    btn7.Enabled = true;
+                    btn8.Enabled = true;
+                    btn9.Enabled = true;
+
+                }
+                else if (secondDigit == '3')
+                {
+                    // Allow only 0-6 for "13x"
+                    btn0.Enabled = true;
+                    btn1.Enabled = true;
+                    btn2.Enabled = true;
+                    btn3.Enabled = true;
+                    btn4.Enabled = true;
+                    btn5.Enabled = true;
+                    btn6.Enabled = true;
+                }
+            }
+            else if (frequencyBuffer.Length >= 3)
+            {
+                // After entering the first 3 digits, allow all numbers for the rest
+                btn0.Enabled = true;
+                btn1.Enabled = true;
+                btn2.Enabled = true;
+                btn3.Enabled = true;
+                btn4.Enabled = true;
+                btn5.Enabled = true;
+                btn6.Enabled = true;
+                btn7.Enabled = true;
+                btn8.Enabled = true;
+                btn9.Enabled = true;
+            }
         }
     }
 }

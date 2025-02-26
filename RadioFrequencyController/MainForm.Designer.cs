@@ -45,7 +45,7 @@
             // 
             // btn1
             // 
-            this.btn1.Font = new System.Drawing.Font("Audiowide", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn1.Font = new System.Drawing.Font("Audiowide", 16F, System.Drawing.FontStyle.Bold);
             this.btn1.Location = new System.Drawing.Point(19, 53);
             this.btn1.Name = "btn1";
             this.btn1.Size = new System.Drawing.Size(91, 48);
@@ -58,16 +58,16 @@
             // 
             this.lblFrequencyDisplay.AutoSize = true;
             this.lblFrequencyDisplay.Font = new System.Drawing.Font("Audiowide", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblFrequencyDisplay.Location = new System.Drawing.Point(70, 9);
+            this.lblFrequencyDisplay.Location = new System.Drawing.Point(76, 9);
             this.lblFrequencyDisplay.Name = "lblFrequencyDisplay";
-            this.lblFrequencyDisplay.Size = new System.Drawing.Size(175, 41);
+            this.lblFrequencyDisplay.Size = new System.Drawing.Size(164, 41);
             this.lblFrequencyDisplay.TabIndex = 3;
-            this.lblFrequencyDisplay.Text = "122.800";
+            this.lblFrequencyDisplay.Text = "___.___";
             this.lblFrequencyDisplay.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // btn2
             // 
-            this.btn2.Font = new System.Drawing.Font("Audiowide", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn2.Font = new System.Drawing.Font("Audiowide", 16F, System.Drawing.FontStyle.Bold);
             this.btn2.Location = new System.Drawing.Point(112, 53);
             this.btn2.Name = "btn2";
             this.btn2.Size = new System.Drawing.Size(91, 48);
@@ -78,7 +78,7 @@
             // 
             // btn3
             // 
-            this.btn3.Font = new System.Drawing.Font("Audiowide", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn3.Font = new System.Drawing.Font("Audiowide", 16F, System.Drawing.FontStyle.Bold);
             this.btn3.Location = new System.Drawing.Point(204, 53);
             this.btn3.Name = "btn3";
             this.btn3.Size = new System.Drawing.Size(91, 48);
@@ -89,7 +89,7 @@
             // 
             // btn6
             // 
-            this.btn6.Font = new System.Drawing.Font("Audiowide", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn6.Font = new System.Drawing.Font("Audiowide", 16F, System.Drawing.FontStyle.Bold);
             this.btn6.Location = new System.Drawing.Point(204, 107);
             this.btn6.Name = "btn6";
             this.btn6.Size = new System.Drawing.Size(91, 48);
@@ -100,7 +100,7 @@
             // 
             // btn5
             // 
-            this.btn5.Font = new System.Drawing.Font("Audiowide", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn5.Font = new System.Drawing.Font("Audiowide", 16F, System.Drawing.FontStyle.Bold);
             this.btn5.Location = new System.Drawing.Point(112, 107);
             this.btn5.Name = "btn5";
             this.btn5.Size = new System.Drawing.Size(91, 48);
@@ -111,7 +111,7 @@
             // 
             // btn4
             // 
-            this.btn4.Font = new System.Drawing.Font("Audiowide", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn4.Font = new System.Drawing.Font("Audiowide", 16F, System.Drawing.FontStyle.Bold);
             this.btn4.Location = new System.Drawing.Point(19, 107);
             this.btn4.Name = "btn4";
             this.btn4.Size = new System.Drawing.Size(91, 48);
@@ -122,7 +122,7 @@
             // 
             // btn9
             // 
-            this.btn9.Font = new System.Drawing.Font("Audiowide", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn9.Font = new System.Drawing.Font("Audiowide", 16F, System.Drawing.FontStyle.Bold);
             this.btn9.Location = new System.Drawing.Point(204, 161);
             this.btn9.Name = "btn9";
             this.btn9.Size = new System.Drawing.Size(91, 48);
@@ -133,7 +133,7 @@
             // 
             // btn8
             // 
-            this.btn8.Font = new System.Drawing.Font("Audiowide", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn8.Font = new System.Drawing.Font("Audiowide", 16F, System.Drawing.FontStyle.Bold);
             this.btn8.Location = new System.Drawing.Point(112, 161);
             this.btn8.Name = "btn8";
             this.btn8.Size = new System.Drawing.Size(91, 48);
@@ -144,7 +144,7 @@
             // 
             // btn7
             // 
-            this.btn7.Font = new System.Drawing.Font("Audiowide", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn7.Font = new System.Drawing.Font("Audiowide", 16F, System.Drawing.FontStyle.Bold);
             this.btn7.Location = new System.Drawing.Point(19, 161);
             this.btn7.Name = "btn7";
             this.btn7.Size = new System.Drawing.Size(91, 48);
@@ -155,7 +155,7 @@
             // 
             // btn0
             // 
-            this.btn0.Font = new System.Drawing.Font("Audiowide", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn0.Font = new System.Drawing.Font("Audiowide", 16F, System.Drawing.FontStyle.Bold);
             this.btn0.Location = new System.Drawing.Point(112, 215);
             this.btn0.Name = "btn0";
             this.btn0.Size = new System.Drawing.Size(91, 48);
